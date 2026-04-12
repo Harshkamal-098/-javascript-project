@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color: rgb(234, 167, 42);
+    text-align: center;
+}
+
+h1{
+    color: whitesmoke;
+    background-color: rgb(179, 24, 171);
+      height: 5rem;
+    font-size: xx-large;
+    font-weight: 800;
+    border: 3px groove rgb(24, 192, 38);
+    border-radius: 20px;
+    line-height: 5rem;
+    display: inline-flex;
+    padding: 1rem;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.game
+{
+     height: 150px;
+      width: 150px;
+}
+
+img
+{
+     height:150px;
+    width: 150px;
+     background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem rgba(0,0,0,1.5);
+    margin-top: 1.5rem;
+    
+}
+img:hover{
+   border:  4px groove rgb(11, 75, 128);
+}
+
+.score-board
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 10rem;
+    gap: 5rem;
+}
+
+#user-score, #comp-score
+{
+    font-size: 10rem;
+}
+.msg-container
+{
+    margin-top: 5rem;
+}
+
+#msg
+{
+    height: 60px;
+    background-color: bisque;
+    color: rgb(7, 4, 1);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 3rem;
+    display: inline-flex;
+    border-radius: 25px;
+    border: 4px ridge rgb(16, 2, 2);
+    margin-top: 5rem;
+    padding: 1rem;
+}
+#msg:hover{
+    border: 3px solid rgb(17, 157, 232);
+}
+
+
